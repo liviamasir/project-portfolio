@@ -29,6 +29,10 @@ h3 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 16px;
   font-weight: normal;
@@ -135,11 +139,51 @@ nav a {
   text-decoration: none;
   color: #272142;
 }
+
+footer {
+  margin: 30px;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
 nav a:hover {
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
 nav li:active a {
+  color: var(--branding-color);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
   color: var(--branding-color);
 }
 
@@ -150,6 +194,10 @@ nav li:active a {
   }
   h3 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 18px;
   }
   .hero {
     padding: 80px 20px;
@@ -162,5 +210,12 @@ nav li:active a {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .btn {
+    font-size: 12px;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
