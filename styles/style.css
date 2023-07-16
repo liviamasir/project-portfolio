@@ -89,7 +89,7 @@ p {
   border-radius: 4px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -171,8 +171,7 @@ footer .social-links a:hover {
 nav a:hover {
   transition: all 100ms ease-in-out;
 }
-nav a:hover,
-nav li:active a {
+nav a:hover {
   color: var(--branding-color);
 }
 
@@ -210,12 +209,5 @@ footer .email-link:hover {
   .content-container {
     text-align: center;
     padding: 0;
-  }
-  .btn {
-    font-size: 12px;
-  }
-
-  footer .contact-box {
-    padding: 30px;
   }
 }
