@@ -42,7 +42,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 160px 200px 0px;
 }
 
 .hero p {
@@ -58,6 +58,9 @@ p {
   line-height: 1.5;
 }
 
+.text-alignement {
+  text-align: start;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -121,6 +124,20 @@ p {
 .logo {
   max-width: 60px;
 }
+
+.png-picture {
+  max-width: 350px;
+}
+
+.grid {
+  display: grid;
+}
+
+.two-column-grid {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -210,5 +227,16 @@ footer .email-link:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  .png-picture {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .text-alignement {
+    text-align: center;
   }
 }
