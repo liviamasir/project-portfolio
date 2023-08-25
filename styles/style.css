@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #618570;
-  --secondary-color: #f3f1f1;
+  --branding-color: #a2b480;
+  --secondary-color: #f5f3e9;
   --heading-font-family: "Caprasimo", cursive;
   --default-font-family: "Sen", sans-serif;
 }
@@ -21,7 +21,7 @@ h6 {
 
 h1 {
   font-size: 96px;
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   line-height: 1.5;
 }
 
@@ -63,7 +63,7 @@ p {
 }
 .btn-branding {
   background: var(--branding-color);
-  border-radius: 4px;
+  border-radius: 30% 70% 38% 62% / 100% 0% 100% 0%;
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -89,7 +89,7 @@ p {
 }
 
 .me-image {
-  border-radius: 4px;
+  border-radius: 30% 70% 64% 36% / 36% 42% 58% 64%;
   max-width: 500px;
 }
 .content-container {
@@ -136,6 +136,45 @@ p {
 .two-column-grid {
   grid-template-columns: 1fr 1fr;
   grid-gap: 0;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.shape {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  height: 300px;
+  width: 400px;
+  z-index: 1;
+  background: #f3c5b9;
+  border-radius: 30% 70% 64% 36% / 36% 42% 58% 64%;
+}
+
+.bg-shape {
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+  width: 300px;
+  height: 150px;
+  background: #f3ce69;
+  border-radius: 0% 100% 100% 0% / 74% 100% 0% 26%;
+  z-index: 1;
+}
+
+.contact-button {
+  border-radius: 30% 70% 38% 62% / 100% 0% 100% 0%;
 }
 
 nav {
