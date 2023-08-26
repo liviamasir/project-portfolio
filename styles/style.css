@@ -251,6 +251,9 @@ footer .email-link:hover {
     width: 100%;
     right: 5px;
   }
+  .btn-branding {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -291,6 +294,9 @@ footer .email-link:hover {
 
   .shape {
     display: none;
+  }
+  .btn-branding {
+    margin-bottom: 0px;
   }
 }
 
